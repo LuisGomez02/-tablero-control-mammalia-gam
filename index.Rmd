@@ -1,0 +1,41 @@
+---
+title: "Ejemplo de tablero de control"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Tarea 1
+
+```{r}
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Tarea 2
+
+```{r}
+
+```
+
+### Tarea 3
+
+```{r}
+
+```
+
+### Tarea 4
+
+```{r}
+
+```
